@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <h1 id="titolo">SNAKE BY SALPIETRA SIMONE</h1>
+    <p>Regole: frecce = muoversi; p = pausa</p>
+      <div id="score">Score</div>
+      <canvas id="gameCanvas" width="350" height="350"></canvas>
+
+
+
+    <style>
+    p{
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Bree Serif', serif;
+
+    }
+      h1{
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Bree Serif', serif;
+      }
+      #gameCanvas {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 4px solid lightgreen;
+      }
+      #score {
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Antic Slab', serif;
+      }
+
+    </style>
+<script type="text/javascript" src="snake.js">
+
+</script>
+  </body>
+  </html>
